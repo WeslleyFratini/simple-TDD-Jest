@@ -1,7 +1,10 @@
-export default (number) => {
-  let factorial = 1;
+const getFactorial =  number => {
+  if(number ===1 ){
 
-  for (let i = number; i >= 1; i--) {
-    factorial = factorial * i;
   }
-};
+  return number * getFactorial(number -1)
+}
+
+  return factorial;
+
+
